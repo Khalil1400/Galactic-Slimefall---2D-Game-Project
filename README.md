@@ -11,6 +11,16 @@ This project was built in **Unity 6** as a turn-based combat game focused on:
 - weapon variety and tactical positioning
 - custom HUD, menu, and game flow systems
 
+## Showcase
+
+### Main Menu
+
+![Galactic Slimefall Main Menu](Showcase/Screenshots/galactic-slimefall-main-menu-screenshot.png)
+
+### Gameplay
+
+![Galactic Slimefall Gameplay](Showcase/Screenshots/galactic-slimefall-gameplay-screenshot.png)
+
 ## Core Gameplay Loop
 
 1. Start a turn.
