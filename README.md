@@ -81,6 +81,14 @@ This project was built in **Unity 6** as a turn-based combat game focused on:
 2. Open [`MainMenu.unity`](Assets/GalacticSlimefall/Scenes/MainMenu.unity) to start from the full menu flow.
 3. Open [`SampleScene.unity`](Assets/GalacticSlimefall/Scenes/SampleScene.unity) for direct gameplay testing.
 
+## Technical Implementation Highlights
+
+- Designed turn orchestration for player input, weapon selection, projectile resolution, and team switching
+- Implemented physics-based weapons with distinct trajectories, collision behavior, and damage rules
+- Built bot behavior around target selection, launch-angle estimation, shot force, and obstacle awareness
+- Connected gameplay systems to health, inventory, timers, turn indicators, audio, pause, and game-over UI
+- Structured the Unity project into focused scenes, scripts, prefabs, content, documentation, and showcase assets
+
 ## Development Notes
 
 A major challenge in development was making the bot AI work in a physics-based artillery game. The AI needed to estimate projectile angle, shot force, and obstacles instead of attacking directly. Other challenges included balancing weapons, handling projectile collisions correctly, and building a clear HUD and inventory system.
